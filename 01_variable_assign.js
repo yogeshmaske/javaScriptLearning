@@ -1,4 +1,5 @@
 var myFullName;
+console.log(myFullName);
 myFullName = "Yogesh maske";
 console.log(myFullName);
 
