@@ -37,8 +37,8 @@ var string = "JS the most popular language";
 var strFun = function (string) {
     var strLength = string.length;
     console.log(string.length);
-    console.log("Charactor at index 6 is ",string[6],"//space is at index 6");
-    console.log("Charactor at index 6 is ",string[11],"//space is at index 11");
+    console.log("Charactor at index 6 is ",string.charAt(6),"//space is at index 6");
+    console.log("Charactor at index 6 is ",string.charAt(11),"//space is at index 11");
 
     console.log("last Charctor in string is",string[string.length-1]);
     console.log("First Charctor in string is",string[0]);
