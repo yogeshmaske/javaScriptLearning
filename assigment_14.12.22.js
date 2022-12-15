@@ -1,5 +1,6 @@
 var squareOfWordLength = function (string) {
     var wordLength = string.length;
+    console.log(">>",string);
     console.log(`Length of string is:${wordLength}`);
     console.log(`Square of length of string is:${wordLength*wordLength}`);
 };
@@ -14,7 +15,7 @@ var string2 = "I am Angular Developer";
 var string2Func = function () {
     var stringLength = string2.length;
     var numOfWord = string2.split(" ").length;
-
+    console.log(string2);
     console.log(`Length of string is ${stringLength}`);
     console.log(`Number of words in string is ${numOfWord}`);
     console.log(`Length of string Divided by no.of words is ${stringLength/numOfWord}`);
