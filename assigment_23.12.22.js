@@ -54,7 +54,7 @@ function facto(num) {
     let sum = 1;
     for (let i = num; i >=1; i--) {
         
-         sum =sum + sum*i;
+         sum =  sum*i;
     }
     console.log(`Factorial of Num ${num} is ${sum}`);
 };
