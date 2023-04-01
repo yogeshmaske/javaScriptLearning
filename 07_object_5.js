@@ -26,20 +26,3 @@ for(let element of friends){
     console.log(element)
 };
 
-const company = "Codemind Technology";
-
-console.log("Orignal String is:",company);
-console.log("After reversing string");
-
-let newString = company.split(" ");
-// console.log(newString[1]);
-
-
-function reverseString(str) {
-    return str.split('').reverse().join('') 
-  
-  }
-  
- let  resStr = reverseString(newString[1])
-  
-  console.log(newString[0] +" "+ resStr);

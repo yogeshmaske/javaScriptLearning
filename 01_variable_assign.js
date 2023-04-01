@@ -1,5 +1,5 @@
 var myFullName;
-console.log(myFullName);
+console.log(myFullName);//undefined
 myFullName = "Yogesh maske";
 console.log(myFullName);
 
@@ -7,7 +7,6 @@ myFullName = " Yogesh Shriram Maske";
 console.log(myFullName);
 
 var myLove = " I Love Only JS";
-
 console.log(myLove);
 
 

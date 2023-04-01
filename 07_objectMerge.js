@@ -11,7 +11,7 @@ const carEngine = {
 
 const newCar = Object.assign({},car,carEngine);
 console.log("Befor Merged two objects are:")
-console.log("car:\n",car);
+	console.log("car:\n",car);
 console.log(" ") 
  console.log("carEngine:\n",carEngine);
  console.log(" ")
